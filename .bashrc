@@ -35,7 +35,6 @@ umask 2
 PS1="${PURPLE}\n\h:${BLUE}\u-\[\033[31m\]\`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\(\1\)/'\`\[\033[37m\] ${GREEN}\w${NO_COLOUR}\n-> "
 
 #to be updated
-source /home/common/git_configuration/git-completion.bash
 export PATH=/home/common/git_configuration/git-review/:$PATH
 alias s='grep -i -n -r --color '$'' 
 

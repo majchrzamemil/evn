@@ -452,9 +452,6 @@ Plug 'altercation/vim-colors-solarized'
 
 Plug 'majutsushi/tagbar'
 
-Plug 'neosnippet'
-" Make sure you use single quotes
-"
 " " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
  Plug 'junegunn/vim-easy-align'
 "
@@ -486,7 +483,6 @@ Plug 'neosnippet'
 "swaping windows
  Plug 'wesQ3/vim-windowswap' 
 
- Plug 'vim-scripts/Conque-GDB'
 
 call plug#end()
 
