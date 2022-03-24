@@ -148,6 +148,9 @@ map <space> /
 map <c-space> ?
 set laststatus=2
 
+"Search everywhere
+map <C-S> :Ag<CR>
+
 func! DeleteTrailingWS()
   exe "normal mz"
   %s/\s\+$//ge
@@ -185,6 +188,9 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'bash install.sh',
     \ }
 Plug 'tpope/vim-fugitive'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 "C++ highlight
 Plug 'octol/vim-cpp-enhanced-highlight' 
+Plug 'mtdl9/vim-log-highlighting'
 call plug#end()
